@@ -1,0 +1,146 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #3a3737, #1b1b1b);
+  }
+  
+  .logo {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 24px;
+  }
+  
+  .disclaimer {
+    color: #a97a13;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 16px;
+    margin-right: 0; /* Elimina el margen derecho */
+
+  }
+  
+  .box {
+    height: 39px;
+    width: 25px;
+    background-color: #000;
+    border: 2px solid #a97a13;
+    box-sizing: content-box; /* Cambiado de border-box a content-box */
+    display: flex;
+    align-items: center;
+    padding: 0; /* Añadido relleno izquierdo para separar del box */
+
+
+  }
+  .icon {
+    height: 15px;
+    width: 15px; /* Ajustado el tamaño del icono */
+    margin: 0 10px; /* Alineado el icono dentro del .box */
+  }
+  .custom-select {
+    color: #ffffff;
+    text-align: center;
+    background-color: #000;
+    border: 2px solid #a97a13;
+    box-sizing: border-box;
+    height: 43px;
+    width: 320px;
+    margin: 8px 0;
+    padding: 0; /* Añadido relleno izquierdo para separar del box */
+
+  }
+
+  .selected {
+  background-color: #a97a13;
+  color: #ffffff;
+}
+
+  
+.custom-button {
+  background-color: #a97a13; /* Color original del botón */
+  position: relative;
+  color: #ffffff;
+  height: 2.5rem;
+  width: 100%;
+  margin-top: 16px;
+  border: none;
+  z-index: 1;
+}
+  
+  .image {
+    opacity: 0.6;
+    width: 350px;
+    height: 79px;
+  }
+  
+  .text {
+    color: #ffffff;
+    text-align: center;
+    margin-left: 8px;
+  }
+  
+  .large-image {
+    opacity: 0.6;
+    width: auto;
+    height: 36px;
+  }
+  
+.image-container {
+  height: 79px;
+  width: 370px;
+  position: relative;
+  background: url('../img/prestadoraIndex.svg') no-repeat center center;
+  background-size: cover; /* Ajusta según tus necesidades */
+  border: none;
+  opacity: 0.6;
+
+}
+
+.large-image-container {
+  position: relative;
+  height: 161px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.background-container {
+  background: url('../img/prestadoraIndex.svg') no-repeat center center / cover;
+  opacity: 0.6; /* Ajusta la opacidad aquí */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
